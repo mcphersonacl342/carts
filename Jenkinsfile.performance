@@ -81,7 +81,7 @@ pipeline {
         }
 
         echo "Waiting for a minute so data can be processed in Dynatrace"
-        sleep(120)
+        sleep(60)
 
         perfSigDynatraceReports(
           envId: 'Dynatrace Tenant', 
